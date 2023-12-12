@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text&family=Nova+Square&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700;9..40,800;9..40,900&family=Nova+Square&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background: linear-gradient(rgba(0, 0, 0, 0.292), rgba(0, 0, 0, 0.189)), url('./assets/tenor.gif');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* background-color: rgba(255, 255, 255, 0.1); */
+  
+}
+
+.nova {
+    font-family: 'Nova Square', sans-serif;
+}
+
+.dm {
+    font-family: 'DM Serif Text', serif;
+    font-family: 'Nova Square', sans-serif;
+}
+
+.dmsans{
+    font-family: 'DM Sans', sans-serif;
+font-family: 'Nova Square', sans-serif;
+}

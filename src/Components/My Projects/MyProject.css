@@ -1,0 +1,20 @@
+@keyframes scrollOnHover {
+    from {
+      transform: translateY(0);
+    }
+    to {
+      transform: translateY(-100%);
+    }
+  }
+  
+  .scroll-on-hover {
+    transition: transform 0.5s ease-in-out;
+    overflow: hidden; 
+  }
+  
+  .scroll-on-hover:hover {
+    animation: scrollOnHover 15s;
+    animation-fill-mode: forwards; 
+    overflow: hidden;
+  }
+  
